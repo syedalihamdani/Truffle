@@ -68,6 +68,16 @@ module.exports = {
     timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
     skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     },
+    // To deploy contract on the ropsten network open truffle console --network ropsten in cmd
+                      // truffle console --network ropsten 
+    // when run await web3.eth.getAccounts()
+                     //  await web3.eth.getAccounts()
+    // This will get all the accounts crosspods to that mnemonic
+    // To get the balance of any account
+                    // await web3.eth.getBalance('0x39602393131d0732C6ABF4dcd90390dE0DCe3c03');
+    // To deploy our contract use this command
+                    // migrate
+    
     // Useful for private networks
     // private: {
     // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
